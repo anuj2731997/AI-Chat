@@ -151,13 +151,13 @@ const MessageWithForm = ({ chatId }) => {
     setInput("");
   };
 
-  const handleRetry = () => {
-    regenerate();
-  };
+  // const handleRetry = () => {
+  //   regenerate();
+  // };
 
-  const handleStop = () => {
-    stop();
-  };
+  // const handleStop = () => {
+  //   stop();
+  // };
 
   const messageToRender = [...initialMessages, ...messages];
 
@@ -224,7 +224,7 @@ const MessageWithForm = ({ chatId }) => {
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Type your message..."
-              // disabled={status === "" }
+              
             />
           </PromptInputBody>
           <PromptInputToolbar>
@@ -238,7 +238,7 @@ const MessageWithForm = ({ chatId }) => {
                   onModelSelect={setSelectedModel}
                 />
               )}
-              {status === "streaming" ? (
+              {/* {status === "streaming" ? (
                 <PromptInputButton onClick={handleStop}>
                   <StopCircleIcon size={16} />
                   <span>Stop</span>
@@ -250,7 +250,7 @@ const MessageWithForm = ({ chatId }) => {
                     <span>Retry</span>
                   </PromptInputButton>
                 )
-              )}
+              )} */}
             </PromptInputTools>
 
             <PromptInputSubmit status={status} />
