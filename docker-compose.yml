@@ -1,0 +1,13 @@
+name: "minor-project"
+
+services:
+  db:
+    image: postgres:latest
+    container_name: minor-project-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: minor_project_db
+    ports:
+      - "6000:5432"
+    restart: always
