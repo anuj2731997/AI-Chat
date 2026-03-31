@@ -7,6 +7,29 @@ A full-stack **AI-powered chat application** built with **Next.js (App Router)**
 
 ---
 
+# AI Chat Project
+
+🚀 **Live Demo:** [Click Here](https://ai-chat-three-lake.vercel.app)
+
+---
+
+## ⚠️ Note
+
+Please use only the following **free models** while testing the application:
+
+* Qwen: Qwen3.6 Plus Preview (free)
+* NVIDIA: Nemotron 3 Super (free)
+* Free Models Router
+* LiquidAI: LFM2.5-1.2B-Thinking (free)
+* Arcee AI: Trinity Large Preview (free)
+* NVIDIA: Nemotron 3 Nano 30B A3B (free)
+
+Using other models may require paid API access and could result in errors.
+
+---
+
+---
+
 ## 🧠 Features
 
 * 💬 AI-driven chat interface for natural language conversations
