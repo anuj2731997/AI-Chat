@@ -7,8 +7,6 @@ A full-stack **AI-powered chat application** built with **Next.js (App Router)**
 
 ---
 
-# AI Chat Project
-
 🚀 **Live Demo:** [Click Here](https://ai-chat-three-lake.vercel.app)
 
 ---
@@ -25,8 +23,6 @@ Please use only the following **free models** while testing the application:
 * NVIDIA: Nemotron 3 Nano 30B A3B (free)
 
 Using other models may require paid API access and could result in errors.
-
----
 
 ---
 
